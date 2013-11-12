@@ -2,7 +2,7 @@ CUNY-IT-Presentation
 ====================
 
 ## Life With Pi: Microcomputing in Academia
-### CUNY 12th Annual IT Conference
+Presentation with interactive demonstrations at the CUNY 12th Annual IT Conference.
 
 ## Abstract
 
