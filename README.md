@@ -2,7 +2,7 @@ CUNY-IT-Presentation
 ====================
 
 ## Life With Pi: Microcomputing in Academia
-Presentation with interactive demonstrations at the CUNY 12th Annual IT Conference.
+This shared repo is used to collaboratively prepare a presentation with interactive demonstrations at the [CUNY 12th Annual IT Conference](http://cunyitconference.commons.gc.cuny.edu/) on Friday, December 6, 2013.
 
 ## Abstract
 
