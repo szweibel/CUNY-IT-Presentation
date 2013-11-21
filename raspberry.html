@@ -2,238 +2,318 @@
 <!DOCTYPE html>
 <html lang="en-US">
 
-<head>
-	<meta charset="utf-8" />
-	<title>Life With Pi: Microcomputing in Academia</title>
-	<meta name="description"
-		content="A presentation on Microcomputing for the 2013 CUNY IT Conference" />
-	<meta name="author" content="Stephen Zweibel" />
-	<meta name="author" content="Allie Verbovetskaya" />
-	<meta name="author" content="Robin Davis" />
-	<meta name="author" content="Junior Tidal" />
-	<meta name="apple-mobile-web-app-capable" content="yes" />
-	<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
-	<meta name="viewport"
-		content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
-	<link rel="stylesheet" href="reveal/css/reveal.min.css" />
-	<link rel="stylesheet" href="reveal/css/theme/default.css" id="theme" />
-	<!-- For syntax highlighting -->
-	<link rel="stylesheet" href="reveal/lib/css/zenburn.css" />
-	<!-- If the query includes 'print-pdf', use the PDF print sheet -->
-	<script>
+	<head>
+		<meta charset="utf-8" />
+		<title>Life With Pi: Microcomputing in Academia</title>
+		<meta name="description"
+			content="A presentation on Microcomputing for the 2013 CUNY IT Conference" />
+		<meta name="author" content="Stephen Zweibel" />
+		<meta name="author" content="Allie Verbovetskaya" />
+		<meta name="author" content="Robin Davis" />
+		<meta name="author" content="Junior Tidal" />
+		<meta name="apple-mobile-web-app-capable" content="yes" />
+		<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+		<meta name="viewport"
+			content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+		<link rel="stylesheet" href="reveal/css/reveal.min.css" />
+		<link rel="stylesheet" href="reveal/css/theme/default.css" id="theme" />
+		<!-- For syntax highlighting -->
+		<link rel="stylesheet" href="reveal/lib/css/zenburn.css" />
+		<!-- If the query includes 'print-pdf', use the PDF print sheet -->
+		<script>
 	document.write( '<link rel="stylesheet" href="reveal/css/print/' + ( window.location.search.match( /print-pdf/gi ) ? 'pdf' : 'paper' ) + '.css" type="text/css" media="print" />' );
 	</script>
-	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
-	<!--[if lt IE 9]>
+		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
+		<!--[if lt IE 9]>
 	<script src="lib/js/html5shiv.js"></script>
 	<![endif]-->
-</head>
-<body>
+	</head>
+	<body>
 
-<div class="reveal">
-	<!-- Any section element inside of this container is displayed as a slide -->
-	<div class="slides">
-		<!-- Intro -->
-		<section>
-			<h1>Life With Pi: Microcomputing in Academia</h1>
-			<h2>Opportunities and Challenges</h2>
-			<p>
-				<small><a href="http://verbovetskaya.com/" target="_blank">Allie Verbovetskaya</a>, 
-					<a href="http://juniortidal.com">Junior Tidal</a>, <a href="http://twitter.com/robincamille" target="_blank">Robin Davis</a>, 
-					&amp; <a href="https://github.com/szweibel" target="_blank">Stephen Zweibel</a>
-				</small>
-			</p>
-		</section>
-		<!-- Allie -->
-		<section data-state="cobalt">
-			<section>
-				<h1>A Brief Introduction</h1>
-				<a href="#" class="navigate-down"> &darr; </a>
-			</section>
-			<section>
-				<h2>Microcomputers & Microcontrollers</h2>
-				<ul>
-					<li>Raspberry Pi ($39.95)</li>
-					<li class="fragment roll-in">BeagleBone ($89.00)</li>
-					<li class="fragment roll-in">Arduino ($29.95)</li>
-					<li class="fragment roll-in">More!</li>
-				</ul>
-				<p>
-					<a href="#" class="navigate-down"> &darr; </a>
-				</p>
-			</section>
-			<section>
-				<h2>DIY</h2>
-				<ul>
-					<li class="fragment roll-in">Helpful community</li>
-					<li class="fragment roll-in">Maker culture</li>
-				</ul>
-				<p>
-					<a href="#" class="navigate-down"> &darr; </a>
-				</p>
-			</section>
-			<section>
-				<h2>Purpose</h2>
-				<ul>
-					<li class="fragment roll-in">Hobby</li>
-					<li class="fragment roll-in">Special interest</li>
-					<li class="fragment roll-in">Education</li>
-				</ul>
-			</section>
-		<!-- Junior -->
-		</section>
-		<section data-state="sunset">
-		<section>
-			<h1>Pedagogy</h1>
-				<a href="#" class="navigate-down"> &darr; </a>
-			</section>
-			<section>
-			<ul>
-				<li class="fragment roll-in">Applications in the classroom</li>
-				<li class="fragment roll-in">Class Webserver</li>
-				<li class="fragment roll-in">Repository for Coursework </li>
-			</ul>
-			<p>
-				<a href="#" class="navigate-down"> &darr; </a>
-			</p>
-					</section>
+		<div class="reveal">
+			<!-- Any section element inside of this container is displayed as a slide -->
+			<div class="slides">
+				<!-- Intro -->
 				<section>
+					<h1>Life With Pi: Microcomputing in Academia</h1>
+					<h2>Opportunities and Challenges</h2>
+					<p>
+						<small><a href="http://verbovetskaya.com/" target="_blank">Allie
+								Verbovetskaya</a>, <a href="http://juniortidal.com">Junior
+							Tidal</a>, <a href="http://twitter.com/robincamille" target="_blank"
+								>Robin Davis</a>, &amp; <a href="https://github.com/szweibel"
+								target="_blank">Stephen Zweibel</a>
+						</small>
+					</p>
+				</section>
+				<!-- Allie -->
+				<section data-state="cobalt">
+					<section>
+						<h1>A Brief Introduction</h1>
+						<a href="#" class="navigate-down"> &darr; </a>
+					</section>
+					<section>
+						<h2>Microcomputers & Microcontrollers</h2>
+						<ul>
+							<li>Raspberry Pi ($39.95)</li>
+							<li class="fragment roll-in">BeagleBone ($89.00)</li>
+							<li class="fragment roll-in">Arduino ($29.95)</li>
+							<li class="fragment roll-in">More!</li>
+						</ul>
+						<p>
+							<a href="#" class="navigate-down"> &darr; </a>
+						</p>
+					</section>
+					<section>
+						<h2>DIY</h2>
+						<ul>
+							<li class="fragment roll-in">Helpful community</li>
+							<li class="fragment roll-in">Maker culture</li>
+						</ul>
+						<p>
+							<a href="#" class="navigate-down"> &darr; </a>
+						</p>
+					</section>
+					<section>
+						<h2>Purpose</h2>
+						<ul>
+							<li class="fragment roll-in">Hobby</li>
+							<li class="fragment roll-in">Special interest</li>
+							<li class="fragment roll-in">Education</li>
+						</ul>
+					</section>
+					<!-- Junior -->
+				</section>
+				<section data-state="sunset">
+					<section>
+						<h1>Pedagogy</h1>
+						<a href="#" class="navigate-down"> &darr; </a>
+					</section>
+					<section>
+						<ul>
+							<li class="fragment roll-in">Applications in the classroom</li>
+							<li class="fragment roll-in">Class Webserver</li>
+							<li class="fragment roll-in">Repository for Coursework </li>
+						</ul>
+						<p>
+							<a href="#" class="navigate-down"> &darr; </a>
+						</p>
+					</section>
+					<section>
 						<h2>Applications in the classroom</h2>
 						<ul>
 							<li class="fragment roll-in">In-class research stations</li>
 							<!-- restricted web browsing, only for research -->
 							<li class="fragment roll-in">Cross-discplinary projects</li>
 							<!-- Mathematics and music, computer science and mechnical/robotic drafting, humanities & linux, gaming, device interactions such as cameras or audio interfaces -->
-							<li class="fragment roll-in">Testing environment for coding class projects</li>
+							<li class="fragment roll-in">Testing environment for coding class
+								projects</li>
 							<!-- RPi may be too slow for on-board development, but would be useful for testing code produced elsewhere -->
 						</ul>
 						<p>
-				<a href="#" class="navigate-down"> &darr; </a>
-			</p>
-				</section>
-				<section>
+							<a href="#" class="navigate-down"> &darr; </a>
+						</p>
+					</section>
+					<section>
 						<h2>Class Webserver</h2>
 						<ul>
 							<li class="fragment roll-in">Class specific webserver on an SD card</li>
 							<!-- Faculty perspective for multiple course management-->
 							<li class="fragment roll-in">A webserver on every student's desk</li>
 							<!-- Student perspective for learning/dev. web applications-->
-							<li class="fragment roll-in">Virtual space for collaborative learning</li>
+							<li class="fragment roll-in">Virtual space for collaborative
+								learning</li>
 							<!-- CMS, wiki, blog specific to the classroom, harvest class related information from social media-->
 
 						</ul>
 						<p>
-				<a href="#" class="navigate-down"> &darr; </a>
-			</p>
-				</section> <!-- webserver -->
-				<section>
+							<a href="#" class="navigate-down"> &darr; </a>
+						</p>
+					</section>
+					<!-- webserver -->
+					<section>
 						<h2>Repository for Coursework</h2>
 						<ul>
 							<li class="fragment roll-in">The paperless classroom</li>
 							<!-- Your class's course management software BB independent. -->
-							<li class="fragment roll-in">Classroom/coursework cloud storage or repository</li>
+							<li class="fragment roll-in">Classroom/coursework cloud storage or
+								repository</li>
 							<!-- stepping stone for instutional repo? -->
 							<li class="fragment roll-in">Archive for past courses</li>
 						</ul>
+						<!--
 						<p>
-				<a href="#" class="navigate-down"> &darr; </a>
-			</p>
-				</section> <!-- coursework -->
-			</section> <!-- Pedagogy/sunset -->
+							<a href="#" class="navigate-down"> &darr; </a>
+						</p>-->
+					</section>
+					<!-- coursework -->
+				</section>
+				<!-- Pedagogy/sunset -->
 
-		<!-- Robin -->
-		<section data-state="lila">
-			<h1>Research</h1>
-			<p>
-				<a href="#" class="navigate-down"> &darr; </a>
-			</p>
-		</section>
-		<!-- Steve -->
-		<section data-state="submerge">
-			<section>
-				<h1>Opening the Black Box</h1>
-				<p>
-					<a href="#" class="navigate-down"> &darr; </a>
-				</p>
-			</section>
-			<section>
-				<h2>Literacy!</h2>
-				<ul>
-					<li>Reading &amp; Writing</li>
-					<li>Digital</li>
-					<li class="fragmnent roll-in">Computational (Software &amp; Hardware)</li><!-- Computing literacy? -->
-				</ul>
-				<p><a href="#" class="navigate-down"> &darr; </a></p>
-			</section>
-			<section>
-				<h2>What does Computational Literacy consist of?</h2>
-			</section>
-			<section>
-				<pre><code>def Hello world:
+				<!-- Research: Robin -->
+				<section data-state="lila">
+					<section>
+						<h1>Research</h1>
+						<p>
+							<a href="#" class="navigate-down"> &darr; </a>
+						</p>
+					</section>
+					<section>
+						<h2>Applications in the lab &amp; studio</h2>
+						<p>Cheap, disposable computing</p>
+						<br />
+						<div style="float:left;width:35%;margin-right:10px;">
+							<img src="http://www.adafruit.com/images/large/basicsensors_LRG.jpg"
+								alt="Sensors" style="width:100%;height:auto;" />
+						</div>
+						<ul style="float:left;width:60%">
+							<li>Sensors!</li>
+							<li>Clusters!</li>
+							<li>Prototypes!</li>
+							<li>Integration with other machines!</li>
+						</ul>
+						<p>
+							<a href="#" class="navigate-down"> &darr; </a>
+						</p>
+					</section>
+					<section>
+						<h2>Advantages</h2>
+						<ul style="line-height:2em;">
+							<li>Low-cost <em>(stretch that grant!)</em></li>
+							<li>Tight control over your machines</li>
+							<li>Build on code others in the community have contributed</li>
+							<li>Publish &amp; brag</li>
+						</ul>
+						<p>
+							<a href="#" class="navigate-down"> &darr; </a>
+						</p>
+					</section>
+					<section>
+						<h2>Sample publications</h2>
+						<div style="font-size:0.9em;text-align:left;">
+							<p style="margin-bottom:1em;"
+								title="Nagy, T., & Gingl, Z. (2013). Low-cost photoplethysmograph solutions using the Raspberry Pi."
+								>Low-cost Photoplethysmograph Solutions Using the Raspberry Pi</p>
+							<p style="margin-bottom:1em;"
+								title="Petteri, T., Raymond P., N., Hemi, M., Kenneth, K., Dominique, D., Claude, G., & Howard M., C. (n.d). Basic Neuroscience: An inexpensive Arduino-based LED stimulator system for vision research. Journal Of Neuroscience Methods, 211227-236. doi:10.1016/j.jneumeth.2012.09.012"
+								>Basic Neuroscience: An Inexpensive Arduino-based LED Stimulator
+								System for Vision Research</p>
+							<p style="margin-bottom:1em;"
+								title="ElShafee, A., El Menshawi, M., & Saeed, M. (2013). Integrating Social Network Services with Vehicle Tracking Technologies. International Journal Of Advanced Computer Science & Applications, 4(6), 124-132."
+								>Integrating Social Network Services with Vehicle Tracking
+								Technologies</p>
+							<p style="margin-bottom:1em;"
+								title="Leeuw, T., Boss, E. S., & Wright, D. L. (2013). In situ Measurements of Phytoplankton Fluorescence Using Low Cost Electronics. Sensors (14248220), 13(6), 7872-7883. doi:10.3390/s130607872"
+								>In Situ Measurements of Phytoplankton Fluorescence Using Low Cost
+								Electronics</p>
+						</div>
+						<p style="font-size:0.4em;">Hover for full citations</p>
+
+					</section>
+				</section>
+				<!-- End research -->
+				
+				<!-- Steve -->
+				<section data-state="submerge">
+					<section>
+						<h1>Opening the Black Box</h1>
+						<p>
+							<a href="#" class="navigate-down"> &darr; </a>
+						</p>
+					</section>
+					<section>
+						<h2>Literacy!</h2>
+						<ul>
+							<li>Reading &amp; Writing</li>
+							<li>Digital</li>
+							<li class="fragmnent roll-in">Computational (Software &amp;
+								Hardware)</li>
+							<!-- Computing literacy? -->
+						</ul>
+						<p>
+							<a href="#" class="navigate-down"> &darr; </a>
+						</p>
+					</section>
+					<section>
+						<h2>What does Computational Literacy consist of?</h2>
+					</section>
+					<section>
+						<pre><code>def Hello world:
 	print('Hello world!')</code></pre>
-				<p>Can you read this?</p>
-				<p><a href="#" class="navigate-down"> &darr; </a></p>
-			</section>
-			<section>
-				<img src="images/raspberrypi-schematic.jpg">
-				<p>What about this?</p>
-				<p><a href="#" class="navigate-down"> &darr; </a></p>
-			</section>
-			<section>
-				<h2>What would students need it for?</h2>
-			</section>
-			<section>
-				<h2>The Internet of Things</h2>
-				<p>(According to the Open University)</p>
-				<ul>
-					<li>the merging of the physical and digital realms;</li>
-					<li>the huge increase in the number of internet-connected devices, objects, sensors and actuators;</li>
-					<li>the huge increase in the amount and value of data;</li>
-					<li>the emergence of novel embedded device platforms below the level of personal mobile devices;</li>
-					<li>and novel applications in energy, transport, health, business and daily life.</li>
-				</ul>
-				<!-- <p>Movement of consumers becoming producers</p> -->
-			</section>
-			<section>
-				<h2>Counterargument</h2>
-				<p>We drive cars, do we all need to be mechanics?</p>
-			</section>
-			<section>
-				<h2>Counter-Counter-argument</h2>
-				<p>Computer hardware is cheap</p>
-				<p>Computer development software is often FREE</p>
-				<p>Barrier to entry is low</p>
-				<p>Possible benefits are huge</p>
-			</section>
-			<section>
-				<h2>Computational Literacy</h2>
-				<p>Necessary to learn</p>
-				<p>Possible to achieve</p>
-				<p>Advantageous to those who possess it, as well as society at large</p>
-			</section>
-		</section>
-		<!-- Questions -->
-		<section data-state="blackout">
-			<section>
-				<h1>Questions?</h1>
-				<p>
-					<a href="#" class="navigate-down"> &darr; </a>
-				</p>
-			</section>
-			<section>
-				<h1>Get in touch</h1>
-				<p>Allie Verbovetskaya, <a href="http://twitter.com/alevtina" target="_blank">@alevtina</a></p>
-				<p>Junior Tidal, <a href="http://twitter.com/juniortidal" target="_blank">@juniortidal</a></p>
-				<p>Robin Davis, <a href="http://twitter.com/robincamille" target="_blank">@robincamille</a></p>
-				<p>Stephen Zweibel, <a href="http://twitter.com/zwounds" target="_blank">@zwounds</a></p>
-			</section>
-		</section>
-	</div>
-</div>
+						<p>Can you read this?</p>
+						<p>
+							<a href="#" class="navigate-down"> &darr; </a>
+						</p>
+					</section>
+					<section>
+						<img src="images/raspberrypi-schematic.jpg" />
+						<p>What about this?</p>
+						<p>
+							<a href="#" class="navigate-down"> &darr; </a>
+						</p>
+					</section>
+					<section>
+						<h2>What would students need it for?</h2>
+					</section>
+					<section>
+						<h2>The Internet of Things</h2>
+						<p>(According to the Open University)</p>
+						<ul>
+							<li>the merging of the physical and digital realms;</li>
+							<li>the huge increase in the number of internet-connected devices,
+								objects, sensors and actuators;</li>
+							<li>the huge increase in the amount and value of data;</li>
+							<li>the emergence of novel embedded device platforms below the level of
+								personal mobile devices;</li>
+							<li>and novel applications in energy, transport, health, business and
+								daily life.</li>
+						</ul>
+						<!-- <p>Movement of consumers becoming producers</p> -->
+					</section>
+					<section>
+						<h2>Counterargument</h2>
+						<p>We drive cars, do we all need to be mechanics?</p>
+					</section>
+					<section>
+						<h2>Counter-Counter-argument</h2>
+						<p>Computer hardware is cheap</p>
+						<p>Computer development software is often FREE</p>
+						<p>Barrier to entry is low</p>
+						<p>Possible benefits are huge</p>
+					</section>
+					<section>
+						<h2>Computational Literacy</h2>
+						<p>Necessary to learn</p>
+						<p>Possible to achieve</p>
+						<p>Advantageous to those who possess it, as well as society at large</p>
+					</section>
+				</section>
+				<!-- Questions -->
+				<section data-state="blackout">
+					<section>
+						<h1>Questions?</h1>
+						<p>
+							<a href="#" class="navigate-down"> &darr; </a>
+						</p>
+					</section>
+					<section>
+						<h1>Get in touch</h1>
+						<p>Allie Verbovetskaya, <a href="http://twitter.com/alevtina"
+								target="_blank">@alevtina</a></p>
+						<p>Junior Tidal, <a href="http://twitter.com/juniortidal" target="_blank"
+								>@juniortidal</a></p>
+						<p>Robin Davis, <a href="http://twitter.com/robincamille" target="_blank"
+								>@robincamille</a></p>
+						<p>Stephen Zweibel, <a href="http://twitter.com/zwounds" target="_blank"
+								>@zwounds</a></p>
+					</section>
+				</section>
+			</div>
+		</div>
 
-<script src="reveal/lib/js/head.min.js"></script>
-<script src="reveal/js/reveal.min.js"></script>
-<script>
+		<script src="reveal/lib/js/head.min.js"></script>
+		<script src="reveal/js/reveal.min.js"></script>
+		<script>
 // Full list of configuration options available here:
 // https://github.com/hakimel/reveal.js#configuration
 Reveal.initialize({
@@ -256,5 +336,5 @@ Reveal.initialize({
 });
 </script>
 
-</body>
+	</body>
 </html>
