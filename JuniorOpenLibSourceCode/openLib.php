@@ -10,13 +10,13 @@ function pageLoader(){
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="">
     <meta name="author" content="">
-    <link rel="shortcut icon" href="../bootstrap/assets/ico/favicon.png">
+    <link rel="shortcut icon" href="bootstrap/assets/ico/favicon.png">
 
     <title>OpenBook Results</title>
 
 
     <!-- Bootstrap core CSS -->
-    <link href="../bootstrap/dist/css/bootstrap.css" rel="stylesheet">
+    <link href="bootstrap/dist/css/bootstrap.css" rel="stylesheet">
 
     <!-- Custom styles for this template -->
     <link href="starter-template.css" rel="stylesheet">
@@ -26,8 +26,8 @@ function pageLoader(){
 
     <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!--[if lt IE 9]>
-      <script src="../bootstrap/assets/js/html5shiv.js"></script>
-      <script src="../bootstrap/assets/js/respond.min.js"></script>
+      <script src="bootstrap/assets/js/html5shiv.js"></script>
+      <script src="bootstrap/assets/js/respond.min.js"></script>
     <![endif]-->
   </head>
 <body>
