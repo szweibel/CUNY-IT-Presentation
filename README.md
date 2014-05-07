@@ -14,7 +14,7 @@ The size, affordability, and versatility of microcomputers make it easy to devel
 
 ## Presenters
 
-**Stephen Zweibel** is a Visiting Lecturer in the Hunter College Library doing work in Emerging Technologies. He likes to work on digital projects that increase access to library collections. He is also studying Digital Humanities at the CUNY Graduate Center. Steve can be reached at <szweibel@hunter.cuny.edu> or [@zwounds](http://twitter.com/zwounds "@zwounds").
+**Stephen Zweibel** is a Visiting Lecturer in the Hunter College Library doing work in Emerging Technologies. He likes to work on digital projects that increase access to library collections. He is also studying Digital Humanities at the CUNY Graduate Center. Steve can be reached at <szweibel@hunter.cuny.edu> or [@zwounds](http://twitter.com/zwounds "@stevezweibel").
 
 **Robin Davis** is the Emerging Technologies & Distance Services Librarian at John Jay College of Criminal Justice by day and a Master's student in Computational Linguistics at CUNY Graduate Center by night. Robin can be reached at <robdavis@jjay.cuny.edu> or [@robincamille](http://twitter.com/robincamille "@robincamille").
 
